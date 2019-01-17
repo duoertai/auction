@@ -19,11 +19,12 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
-    "core-js": "^2.5.4",
-    "file-loader": "^3.0.1",
-    "rxjs": "~6.3.3",
-    "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
+    "bootstrap": "^3.3.6",
+    "core-js": "^2.4.1",
+    "jquery": "^2.2.2",
+    "rxjs": "^6.3.3",
+    "systemjs": "0.19.37",
+    "zone.js": "^0.7.6"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.12.0",
