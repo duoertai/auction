@@ -17,7 +17,7 @@ import {RouterModule} from '@angular/router';
   imports:      [ BrowserModule,
     RouterModule.forRoot([
       {path: '',                    component: HomeComponent},
-      {path: 'products/:prodTitle', component: ProductDetailComponent}
+      {path: 'products/:productId', component: ProductDetailComponent}
     ]) ],
   declarations: [ ApplicationComponent,
     CarouselComponent,
