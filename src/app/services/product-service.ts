@@ -1,3 +1,5 @@
+import {Injectable} from '@angular/core';
+
 export class Product {
     constructor(
         public id: number,
@@ -20,6 +22,7 @@ export class Review {
   }
 }
 
+@Injectable()
 export class ProductService {
     getProducts(): Array<Product> {
         return products.map(p => new Product(p.id, p.title, p.price, p.rating, p.description, p.categories));
